@@ -3,6 +3,7 @@
 ### *TL;DR*
 A Zerotier gateway to access your non-public k8s services thru ZT subnet 
 
+* Added github workflow for build and push of docker images. Future tags will reflect the zerotier version.
 
 ### Kubernetes
 

@@ -8,7 +8,7 @@ zerotier_config:
   zerotier_label_service: "zerotier"
 
 image:
-  repository: verajm/kubernetes-zerotier-bridge
+  repository: ghcr.io/robyrobot/kubernetes-zerotier-bridge
   tag: latest
   pullPolicy: IfNotPresent
 
