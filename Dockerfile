@@ -18,7 +18,7 @@ RUN set -eux; \
         openrc \
         curl \
     ;\
-    wget https://github.com/zerotier/ZeroTierOne/archive/$ZEROTIER_VERSION.zip -O /zerotier.zip; \
+    wget https://github.com/zerotier/ZeroTierOne/archive/refs/tags/$ZEROTIER_VERSION.zip -O /zerotier.zip; \
     unzip /zerotier.zip -d /; \
     cd /ZeroTierOne-$ZEROTIER_VERSION; \
     make; \
